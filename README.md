@@ -1,99 +1,108 @@
-Super Store Sales Dashboard 📊🛒
-Welcome to the Super Store Sales Dashboard GitHub project! Dive into the world of retail analytics with our dynamic and visually captivating Power BI dashboard. This project encapsulates end-to-end data analysis, from raw data cleaning to stunning visualizations, incorporating time series forecasting to predict future sales and drive smarter business decisions. Let's explore what makes this dashboard stand out!
+# 🛒 Super Store Sales Dashboard
 
-✨ Features
+> Leveraging time series analysis and interactive Power BI dashboards to deliver actionable sales insights and accurate 15-day forecasting for business decision-making.
 
-Interactive Region Filters: Slice and dice your data effortlessly! Filter sales insights by Central, East, South, and West regions with a single click, watching every visual update in real time.
+---
 
-Time Series Forecasting: See into the future! Our 15-day sales forecast leverages Power BI's built-in forecasting engine to predict upcoming sales with confidence interval bands.
+## 📊 Dashboard Preview
 
-Multi-Dimensional Analysis: From payment modes to shipping classes, from product categories to customer segments — every angle of the business is covered in one place.
+### Sales Dashboard
+![Sales Dashboard](screenshots/sales_dashboard.png)
 
-Sleek Dark Theme Design: Our dashboard isn't just about numbers — it's a visual experience! Immerse yourself in a professionally designed dark canvas that makes every insight pop.
+### Sales Forecast Dashboard
+![Forecast Dashboard](screenshots/forecast_dashboard.png)
 
-Geographic Sales Mapping: Explore sales performance across US states with an interactive Bing Maps visualization, instantly spotting your highest-revenue territories.
+---
 
-KPI Snapshot Cards: Stay on top of the big picture with instant KPI cards showing Total Sales ($1.57M), Profit ($175.26K), and Quantity (22K) at a glance.
+## 🎯 Objective
 
-🖼️ Dashboard Preview
+To incorporate data analysis techniques, specializing in **time series analysis**, to deliver:
+- Valuable business insights across regions, categories, and customer segments
+- Accurate **15-day sales forecasting** using historical trends
+- Interactive dashboards enabling data-driven decision-making
 
-Sales Dashboard
+---
 
+## 📌 Key Metrics
 
-15-Day Sales Forecast
+| Metric | Value |
+|--------|-------|
+| 💰 Total Sales | $1.57M |
+| 📈 Total Profit | $175.26K |
+| 📦 Total Quantity Sold | 22,000 units |
+| 📅 Data Period | 2019 – 2020 |
 
+---
 
-📌 Key Metrics at a Glance
+## 💡 Key Insights Uncovered
 
-💰 Total Sales : $1.57M
+- 🏆 Office Supplies dominates sales at $0.64M, making it the top-performing category
+- 👥 Consumers drive nearly half of all sales (48%), followed by Corporate clients at 33%
+- 💳 Cash on Delivery remains king at 43% — a big opportunity to nudge customers toward digital payments
+- 🌍 The West region leads with 33% of sales, and California alone contributes $0.34M
+- 📦 Standard Class shipping is overwhelmingly preferred at $0.33M — far ahead of other modes
+- 🔮 The 15-day forecast projects daily sales between $3K – $10.6K as we enter early 2021
 
-📈 Total Profit: $175.26K
+## 🔍 Dashboard Features
 
-📦 Quantity Sold: 
+### Page 1 – Sales Dashboard
 
-📅 Period:2019 – 2020
+- **Sales by Category** — Office Supplies leads at $0.64M, followed by Technology ($0.47M) and Furniture ($0.45M)
+- **Sales by Segment** — Consumer (48%), Corporate (33%), Home Office (19%)
+- **Sales by Payment Mode** — COD (43%), Online (35%), Cards (22%)
+- **Sales by Region** — West (33%), East (29%), Central (22%), South (16%)
+- **Sales by Sub-Category** — Top performers: Phones ($0.20M), Chairs ($0.18M), Binders ($0.17M)
+- **Sales by Ship Mode** — Standard Class dominates at $0.33M
+- **Monthly Sales & Profit Trends** — Year-over-year comparison (2019 vs 2020)
+- **Sales and Profit by State** — Geographic map visualization across the US
 
+### Page 2 – 15-Day Sales Forecast
 
-💡 Key Insights Uncovered
+- **Time Series Forecasting** — Built-in Power BI forecasting to predict sales for the next 15 days
+- **Top States by Sales** — California ($0.34M), New York ($0.19M), Texas ($0.12M)
+- **Forecast Confidence Intervals** — Upper and lower bounds for predicted sales
 
-🏆 Office Supplies dominates sales at $0.64M, making it the top-performing category
+---
 
-👥 Consumers drive nearly half of all sales (48%), followed by Corporate clients at 33%
+## 💡 Key Insights
 
-💳 Cash on Delivery remains king at 43% — a big opportunity to nudge customers toward digital payments
+- 📦 **Office Supplies** is the highest-selling category, but **Technology** may yield higher profit margins
+- 💳 **COD** is the most preferred payment mode (43%) — an opportunity to promote digital payments
+- 🌍 The **West region** drives the most sales (33%), with **California** being the top state at $0.34M
+- 📈 Sales show a clear **upward trend** toward Q4, indicating seasonal demand spikes
+- 🔮 The 15-day forecast predicts sales ranging between **$3K–$10.6K per day** in early 2021
 
-🌍 The West region leads with 33% of sales, and California alone contributes $0.34M
+---
 
-📦 Standard Class shipping is overwhelmingly preferred at $0.33M — far ahead of other modes
+## 🛠️ Tools & Technologies
 
-🔮 The 15-day forecast projects daily sales between $3K – $10.6K as we enter early 2021
+| Tool | Purpose |
+|------|---------|
+| Power BI Desktop | Dashboard creation & visualization |
+| Power BI Forecasting | Time series analysis |
+| Microsoft Bing Maps | Geographic sales mapping |
+| Excel / CSV | Data source preparation |
 
-🚀 Usage
+---
 
-Get Started — Clone or download this repository
+## 📂 Dataset
 
-Power Up — Open the .pbix file in Power BI Desktop (free to download)
+- **Source:** [Kaggle – Super Store Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+- **Records:** ~10,000 transactions
+- **Period:** January 2019 – December 2020
+- **Fields:** Order ID, Category, Sub-Category, Region, Segment, Sales, Profit, Quantity, Payment Mode, Ship Mode
 
-Connect Data — Ensure the data source is linked to the included CSV file
+---
 
-Explore — Interact with filters, hover over charts, and uncover your own insights!
+## 🚀 How to View the Dashboard
 
-📂 Project Structure
+1. Download the `.pbix` file from this repository
+2. Install [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free)
+3. Open the file in Power BI Desktop
+4. Use the **region filters** (Central / East / South / West) to explore regional data
 
-superstore-sales-dashboard/
-│
-├──  superstore_sales.csv          # Source dataset
-├── screenshots
-├── SuperStoreSalesDashboard.pbix     # Power BI project file
-└── README.md
+---
 
-🛠️ Tools & Technologies
+## 📄 License
 
-Tool
-Power BI Desktop
-
-Power BI Forecasting
-
-Microsoft Bing Maps
-
-Excel / CSV
-
-📂 Dataset
-
-Source: Kaggle – Super Store Dataset
-
-Volume: ~10,000 transactions across 2 years
-
-Key Fields: Category, Sub-Category, Region, Segment, Payment Mode, Ship Mode, Sales, Profit, Quantity
-
-
-🤝 Contributions
-
-We thrive on collaboration! Whether you're here to enhance features, improve visuals, or suggest new insights, your contributions are invaluable. Feel free to submit pull requests or raise issues in the repository.
-
-👤 Author
-[Your Name] 📧 [your.email@example.com] 🔗 LinkedIn • 🐙 GitHub
-
-📜 License
-This project is open source and available under the MIT License.
-
+This project is open source and available under the [MIT License](LICENSE).
