@@ -7,10 +7,10 @@
 ## 📊 Dashboard Preview
 
 ### Sales Dashboard
-![Sales Dashboard](Salesdashboardscreenshoot.png)
+![Sales Dashboard](Salesdashboardscreenshot.png)
 
 ### Sales Forecast Dashboard
-![Forecast Dashboard](Salesforecastingscreenshoot.png)
+![Forecast Dashboard](Salesforecastingscreenshot.png)
 
 ---
 
